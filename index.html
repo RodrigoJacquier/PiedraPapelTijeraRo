@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <title>PiedraPapelTijera</title>
+
+</head>
+<body class="fondo" style="display: flex;justify-content: center; align-items: flex-start;">
+    <center>
+        <br>
+        <h1>Juego Piedra, Papel o Tijera</h1>
+        <table style="font-size: x-large;">
+            <tr>
+                <td>
+                    <span>
+                        Tu Jugada:
+                    </span>
+                </td>
+                <td>
+                    <input type="text" name="jugadaUsuario" value="" placeholder="ESCRIBA: PIEDRA PAPEL o TIJERA" 
+                    id="jugadaUsuario">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <span>
+                        Jugada de la Computadora:
+              
+                    </span>
+                </td>
+                <td>
+                    <input type="text" name="jugadaComputadora" value="OCULTA" disabled id="jugadaComputadora">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span>
+                        Resultado:
+                    </span>
+                </td>
+                <td>
+                    <input type="text" name="resultado" value="¿?" disabled id="resultado">
+                </td>
+            </tr>
+         
+        </table>
+        <br>
+        <button style="font-size: x-large;" onclick="evaluarJuego()">Jugar!</button>
+        <br><br>
+        <button style="font-size: x-large;" onclick="resetear()">Volver a jugar!</button>
+        
+    </center>
+</body>
+</html>
