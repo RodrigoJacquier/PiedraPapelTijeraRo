@@ -1,4 +1,55 @@
-.fondo{
-    background-image: url(../img/piedra_papel_tijera.jpg);
-    margin-top: 10px;
+*{
+    margin: 2;
+    padding: 1px;
+
 }
+.fondo{
+    /* background-image: url(../img/piedra_papel_tijera4.jpg); */
+    /* margin-top: 10px; */
+    background-color: #3eb4e7;
+}
+h1{
+    width: 400px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    /* animation: infinite; */
+}
+table{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    width: 400px;
+    height: 87%;
+    font-size: 9px;
+}
+input{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-style: italic;
+    font-size: 18px;
+
+    
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #366aa5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #483a6b;
+  }
+  
+  .my-button:active {
+    background-color: #150d4c;
+  }
+  .logo{
+    width: 45em;
+    height: 50em;
+
+    background-image: url(../img/piedra_papel_tijera4.jpg);
+  }

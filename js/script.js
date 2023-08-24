@@ -75,9 +75,9 @@ function resetear() {
     var jugadaComputadora= document.getElementById("jugadaComputadora");
     var jugadaUsuario= document.getElementById("jugadaUsuario");
     var resultado=document.getElementById("resultado");
-    jugadaComputadora.value="OCULTA";
+    jugadaComputadora.value="¿¿¿  ???";
     jugadaUsuario.value="";
-    resultado.value="¿?";
+    resultado.value="¿¿¿  ???";
     
     
     
