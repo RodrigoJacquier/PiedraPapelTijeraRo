@@ -1,6 +1,6 @@
 *{
     margin: 2;
-    padding: 1px;
+    /* padding: 1px; */
 
 }
 .fondo{
@@ -9,7 +9,7 @@
     background-color: #3eb4e7;
 }
 h1{
-    width: 400px;
+    width: 340px;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
@@ -17,9 +17,9 @@ h1{
 }
 table{
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    width: 400px;
-    height: 87%;
-    font-size: 9px;
+    width: 40px;
+    /* height: 8%; */
+    font-size: 19px;
 }
 input{
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
@@ -27,7 +27,9 @@ input{
     width: 200px;
     height: 30px;
     font-style: italic;
-    font-size: 18px;
+    font-size: 17px;
+    border-radius: 5%;
+    
 
     
 }
